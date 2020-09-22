@@ -38,6 +38,7 @@
 	top: 38px;
 }
 .syllabusNavbar{
+	text-decoration: none;
 	position: absolute;
 	width: 53px;
 	height: 20px;
@@ -107,7 +108,17 @@
 	height: 46px;
 	left: 707px;
 	top: 406px;
-	background: #00AFDB;	
+	background-color: #00AFDB;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
 }
 .containerYour{
 	width: 730px;
@@ -122,7 +133,28 @@
 	top: 635px;
 }
 .mailLogo{
+	position: absolute;
+    right: 88.24%;
+}
+.facebook{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 50px;
+	top: 0px;
 
+}
+.instagram{
+	position: absolute;
+	left: 58.82%;
+	right: 29.41%;
+}
+.youtube{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 150px;
+	top: 0px;
 
 }
 .wrapperReppresent{
@@ -171,6 +203,28 @@
 	font-size: 14px;
 	line-height: 140%;
 	color: #4E4E4E;
+}
+.reppresentButton{
+	display: flex;
+	flex-direction: row;
+	padding: 15px 47px;
+	position: absolute;
+	width: 184px;
+	height: 46px;
+	left: 0px;
+	margin-top: 202px;
+	background: #00AFDB;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
 }
 .imageContainer{
 	position: absolute;
@@ -287,12 +341,51 @@
 	line-height: 140%;
 	color: #4E4E4E;
 }
+.implementButton{
+	display: flex;
+	flex-direction: row;
+	padding: 15px 47px;
+	position: absolute;
+	width: 180px;
+	height: 46px;
+	margin-top: 138px;
+	background: #00AFDB;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
 .wrapperSubscribe{
 	position: absolute;
 	width: 1600px;
 	height: 598px;
 	top: 2932px;
 	background: url(./Assets/image-bg5.png);
+
+}
+.inputText input{
+	position: absolute;
+	width: 340px;
+	height: 46px;
+	margin-top: 58px;
+	background: #FFFFFF;
+	border-radius: 0px;
+
+}
+.inputText button{
+	position: absolute;
+	width: 66px;
+	height: 52px;
+	margin-left: 345px;
+	margin-top: 58px;
+	background: #00AFDB;
+	border-radius: 0px;
 
 }
 .signContainer{
@@ -366,6 +459,79 @@
 	align-items: center;
 	text-align: center;
 	color: #4E4E4E;
+}
+.apple{
+	position: absolute;
+    width: 129px;
+    height: 50px;
+    left: 38px;
+    top: 238px;
+	background: #00AFDB;
+	background-color: #00AFDB;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+		
+}
+.appleButton button{
+	position: absolute;
+	width: 60px;
+	height: 50px;
+	left: 164px;
+	top: 238px;
+	background: #009CC2;
+	border-radius: 0px;
+	}
+.appleButton img{
+	position: absolute;
+	width: 17px;
+	height: 20px;
+	left: 186px;
+	top: 252px;
+	background: url(./Assets/icon-apple.svg);
+
+}
+.google{
+	position: absolute;
+    width: 129px;
+    height: 50px;
+    left: 256px;
+    top: 238px;
+	background: #00AFDB;
+	background-color: #00AFDB;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 16px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+.googleButton button{
+	position: absolute;
+	width: 60px;
+	height: 50px;
+	left: 383px;
+	top: 238px;
+	background: #009CC2;
+	border-radius: 0px;
+}
+.googleButton img{
+	position: absolute;
+	width: 17px;
+	height: 20px;
+	left: 405px;
+	top: 252px;
+	background: url(./Assets/icon-android.png);
 }
 .wrapperFooter{
 	position: absolute;
