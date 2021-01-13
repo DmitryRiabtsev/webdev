@@ -1,1 +1,1 @@
-https://dmitryriabtsev.github.io/webdev/
+https://dmitryriabtsev.github.io/webdev/main/index.html
